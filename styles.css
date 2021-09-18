@@ -41,14 +41,15 @@
 }
 
 #menu {
+    padding-right: 40px;
     padding-top: 65px;
     padding-bottom: 60px;
     float: right;
-    width: 500px;
+    width: 600px;
 }
 
 #menu li{
-    float: left;
+    float: right;
     list-style: none;
     margin-left: 10px;
     margin-right: 10px;
@@ -62,6 +63,7 @@
 }
 
 .blog-content{
+    padding-right: 40px;
     float: right;
     max-width: 300px;
     margin-right: 10px;
