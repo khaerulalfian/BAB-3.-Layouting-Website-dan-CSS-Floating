@@ -1,0 +1,86 @@
+.body {
+    background-color: #efefef;
+}
+
+.wrapper {
+
+}
+
+.container {
+   width: 1000;
+   margin: auto;
+   padding-right: 10px;
+   padding-left: 10px;
+   background-color: #e3e3e3;
+}
+
+.sidebar {
+    width: 300px;
+    float:left
+}
+
+.content {
+    width: 800px;
+    float:right
+}
+
+.clear {
+    clear:both
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: auto;
+    padding: 40px;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+#menu {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    float: right;
+    width: 500px;
+}
+
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #00295b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog-content{
+    float: right;
+    max-width: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-content img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.recent-article{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.recent-article ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
